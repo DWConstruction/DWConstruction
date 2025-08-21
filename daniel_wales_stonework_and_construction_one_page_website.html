@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daniel Wales Stonework and Construction</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background: url('dfbd13e4-4ef8-42a6-a99f-a0c12f823877.png') no-repeat center center fixed;
+      background-size: cover;
+      text-align: center;
+    }
+    .overlay {
+      background: rgba(0,0,0,0.65);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 15px;
+    }
+    p.tagline {
+      font-size: 1.3em;
+      margin-bottom: 25px;
+      max-width: 700px;
+    }
+    ul.services {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 30px;
+      font-size: 1.1em;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      max-width: 800px;
+    }
+    ul.services li {
+      background: rgba(255,255,255,0.08);
+      padding: 10px 15px;
+      border-radius: 6px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+    .contact a:hover {
+      background: #fff;
+      color: #000;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Daniel Wales Stonework and Construction</h1>
+    <p class="tagline">Crafting quality stonework, brickwork, patios, and general building services with pride and reliability.</p>
+    <ul class="services">
+      <li>Stone Walls & Repointing</li>
+      <li>Brickwork & Extensions</li>
+      <li>Patios & Paving</li>
+      <li>Steps & Retaining Walls</li>
+      <li>Garden Features</li>
+      <li>General Building Work</li>
+    </ul>
+    <div class="contact">
+      <a href="tel:+447000000000">📞 Call: +44 7000 000000</a>
+      <a href="mailto:info@example.com">✉️ Email: info@example.com</a>
+    </div>
+    <footer>
+      © <span id="year"></span> Daniel Wales Stonework and Construction. All rights reserved.
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
